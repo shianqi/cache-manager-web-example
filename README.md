@@ -1,4 +1,4 @@
-# Cache-Manager-Web-Example
+# Cache-Manager-Web-Example
 
 ## Install
 
