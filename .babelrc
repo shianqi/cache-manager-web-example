@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "ie >= 9"
+          ],
+          "node": "current"
+        },
+        "debug": true,
+        "useBuiltIns": true
+      }
+    ],
+    "react",
+    "stage-3"
+  ],
+  "plugins": [],
+  "sourceMaps": "both"
+}
