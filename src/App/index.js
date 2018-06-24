@@ -25,7 +25,7 @@ class App extends Component {
         this.setState({
           fetchState: 'Fetching data from network...'
         })
-        const data = await fetch(`http://www.subreddit.com/r/${cacheKey}.json`, {
+        const data = await fetch(`https://www.subreddit.com/r/${cacheKey}.json`, {
           method: 'GET',
           mode: 'cors',
           cache: 'default'
